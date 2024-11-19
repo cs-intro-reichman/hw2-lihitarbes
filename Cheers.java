@@ -13,17 +13,16 @@ public class Cheers {
                         System.out.println("Give me an " + capital.charAt(i) + ":" + " " + capital.charAt(i) + "!");
                 }
                 else {
-                        System.out.println("Give me a " + capital.charAt(i) + ":" + " " + capital.charAt(i) + "!") ;      
+                        System.out.println("Give me a  " + capital.charAt(i) + ":" + " " + capital.charAt(i) + "!") ;      
                 }
                 i++; 
            
 
         }
-        System.out.println("What does that spell?");
-        System.out.println(capital + "!!!");
-        
-        for( int j = 0; j< numofcheers; j++)
+       
+        for( int j = 0; j < numofcheers; j++)
         {
+                System.out.println("What does that spell?");
                 System.out.println(capital + "!!!");
              
         }
