@@ -9,7 +9,7 @@ public class Cheers {
             String capital = cheers.toUpperCase();
             while (i < cheers.length())
         { 
-                if( capital.charAt(i) == 'A' || capital.charAt(i) == 'E'|| capital.charAt(i) == 'F' || capital.charAt(i) == 'H' || capital.charAt(i) == 'I' || capital.charAt(i) == 'L' || capital.charAt(i) == 'M'|| capital.charAt(i) == 'N' || capital.charAt(i) == 'O' || capital.charAt(i) == 'R' || capital.charAt(i) == 'x' || capital.charAt(i) == 's'){
+                if( capital.charAt(i) == 'A' || capital.charAt(i) == 'E'|| capital.charAt(i) == 'F' || capital.charAt(i) == 'H' || capital.charAt(i) == 'I' || capital.charAt(i) == 'L' || capital.charAt(i) == 'M'|| capital.charAt(i) == 'N' || capital.charAt(i) == 'O' || capital.charAt(i) == 'R' || capital.charAt(i) == 'X' || capital.charAt(i) == 'S'){
                         System.out.println("Give me an " + capital.charAt(i) + ":" + " " + capital.charAt(i) + "!");
                 }
                 else {
