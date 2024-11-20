@@ -19,10 +19,9 @@ public class Cheers {
            
 
         }
-       
+        System.out.println("What does that spell?");
         for( int j = 0; j < numofcheers; j++)
         {
-                System.out.println("What does that spell?");
                 System.out.println(capital + "!!!");
              
         }
